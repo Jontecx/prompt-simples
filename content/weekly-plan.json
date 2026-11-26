@@ -1,0 +1,40 @@
+{
+  "weeklyDirective": {
+    "weekTheme": "Prompts práticos para pequenas empresas brasileiras: vendas no WhatsApp, organização financeira, rotina diária e criação de conteúdo rápido.",
+    "targetAudience": "Empreendedores, autônomos e profissionais brasileiros iniciantes em IA.",
+    "toneGuidelines": "Português do Brasil natural, direto ao ponto, sem clichês robóticos, com foco em aplicação imediata.",
+    "priorityCategories": [
+      "Produtividade",
+      "Carreira e Negócios",
+      "Criação de Conteúdo",
+      "Ferramentas de IA"
+    ],
+    "updatedAt": "2026-11-26T03:00:00.000Z"
+  },
+  "queue": [
+    {
+      "id": "seed-1",
+      "dayOfWeek": "Quinta-feira",
+      "scheduledDate": "2026-11-26",
+      "slot": "09:00",
+      "title": "5 Prompts de IA para Organizar o Fluxo de Caixa de Pequenas Empresas Sem Planilhas Complexas",
+      "slug": "carreira-e-negocios-fluxo-de-caixa-pequenas-empresas-ia",
+      "category": "Carreira e Negócios",
+      "angle": "Controle financeiro simples para prestadores de serviço e comércios locais no Brasil.",
+      "promptFocus": "Classificação de gastos, previsão semanal de caixa e cortes de desperdício.",
+      "status": "pending"
+    },
+    {
+      "id": "seed-2",
+      "dayOfWeek": "Quinta-feira",
+      "scheduledDate": "2026-11-26",
+      "slot": "18:00",
+      "title": "Como Usar o ChatGPT para Responder Avaliações do Google Meu Negócio e Atrair Mais Clientes Locais",
+      "slug": "criacao-de-conteudo-respostas-google-meu-negocio-ia",
+      "category": "Criação de Conteúdo",
+      "angle": "SEO local e fidelização respondendo elogios e críticas com profissionalismo.",
+      "promptFocus": "Respostas para notas 5 estrelas, reclamações delicadas e palavras-chave locais.",
+      "status": "pending"
+    }
+  ]
+}
