@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Efrom";
+  src: url("/fonts/efrom.woff") format("woff"),
+    url("/fonts/efrom.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+    color: #111827;
+    font-family: "Efrom", ui-sans-serif, system-ui, sans-serif;
+    font-synthesis: weight style;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #111827;
+    font-family: "Efrom", ui-sans-serif, system-ui, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Efrom", ui-sans-serif, system-ui, sans-serif;
+    font-weight: 700;
+    font-synthesis: weight;
+    letter-spacing: -0.02em;
+  }
+}

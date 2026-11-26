@@ -1,0 +1,19 @@
+# Prompt Simples
+> Portal editorial brasileiro sobre Inteligência Artificial, Prompts Práticos e Produtividade no dia a dia.
+
+## Sobre o Portal
+O Prompt Simples democratiza o uso prático da Inteligência Artificial para iniciantes, empreendedores e profissionais no Brasil, com guias testados, linguagem clara e blocos de prompts prontos para copiar com 1 clique.
+
+## Categorias Principais
+- Produtividade
+- Carreira e Negócios
+- Criação de Conteúdo
+- Ferramentas de IA
+
+## Páginas Principais
+- [Início](/)
+- [Sobre Nós](/sobre)
+- [Contato](/contato)
+- [Política de Privacidade](/privacidade)
+- [Termos de Uso](/termos)
+- [Sitemap](/sitemap.xml)
