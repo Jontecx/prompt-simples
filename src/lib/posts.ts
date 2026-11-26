@@ -41,9 +41,9 @@ export interface Post extends PostMeta {
 }
 
 const DEFAULT_AUTHOR: PostAuthor = {
-  name: "Redação Prompt Simples",
-  role: "Equipe Editorial de IA Aplicada",
-  bio: "Especialistas em produtividade, automação e engenharia de prompts traduzindo a Inteligência Artificial para o dia a dia de profissionais e empresas no Brasil.",
+  name: "Jonatas Alcântara",
+  role: "Fundador e Editor do Prompt Simples",
+  bio: "Especialista em automação, Inteligência Artificial aplicada e engenharia de prompts traduzindo a IA para o dia a dia de profissionais e empresas no Brasil.",
 };
 
 function countWords(markdown: string): number {
@@ -156,17 +156,17 @@ function parsePostFile(fileName: string): Post {
   const extractedPrompts = extractPromptsFromMarkdown(content);
   const firstPromptObj = extractedPrompts[0];
 
-  const authorData =
-    data.author && typeof data.author === "object"
-      ? {
-          name: String(data.author.name || DEFAULT_AUTHOR.name),
-          role: String(data.author.role || DEFAULT_AUTHOR.role),
-          bio: String(data.author.bio || DEFAULT_AUTHOR.bio),
-        }
-      : {
-          ...DEFAULT_AUTHOR,
-          name: typeof data.author === "string" ? data.author : DEFAULT_AUTHOR.name,
-        };
+  const authorData: PostAuthor = {
+    name: DEFAULT_AUTHOR.name,
+    role:
+      data.author && typeof data.author === "object" && data.author.role
+        ? String(data.author.role)
+        : DEFAULT_AUTHOR.role,
+    bio:
+      data.author && typeof data.author === "object" && data.author.bio
+        ? String(data.author.bio)
+        : DEFAULT_AUTHOR.bio,
+  };
 
   return {
     slug,
